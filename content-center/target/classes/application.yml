@@ -1,0 +1,11 @@
+server:
+  port: 8042
+spring:
+  application:
+    name: content-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849
+
+mybatsi

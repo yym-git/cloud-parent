@@ -1,0 +1,39 @@
+server:
+  port: 8040
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false #让gateway自动从服务发现组件获取服务
+      routes:
+        - id: user-center-id-pt
+          uri: lb://user-center
+          predicates:
+            - Path=/user-center/test/**
+            - After=2021-01-20T17:42:47.789-07:00[America/Denver]
+            - TimeBetween=上午0:00,下午0:00
+          filters:
+            - StripPrefix=2
+            - PreLog=a,b
+    nacos:
+      discovery:
+        server-addr: localhost:8849
+  application:
+    name: gateway
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+#初始化nacos config需要的配置信息
+nacos:
+  init:
+    server-addr: localhost:8849
+    data-id: gateway-json-routes
+    group: DEFAULT_GROUP
+    namespace: ''

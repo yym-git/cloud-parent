@@ -1,0 +1,30 @@
+server:
+  port: 8041
+spring:
+  application:
+    name: user-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8&useSSL=false&useUnicode=true&autoReconnect=true
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#MybatisPlus配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.user.center.entity

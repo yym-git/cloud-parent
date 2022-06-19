@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="untitled" />
+        <module name="spring-boot-admin" />
+        <module name="content-center" />
+        <module name="user-center" />
+        <module name="gateway-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-parent" target="1.8" />
+      <module name="content-center" target="1.8" />
+      <module name="gateway-demo" target="1.8" />
+      <module name="spring-boot-admin" target="1.8" />
+      <module name="untitled" target="17" />
+      <module name="user-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-parent" options="" />
+      <module name="content-center" options="-parameters" />
+      <module name="gateway-demo" options="-parameters" />
+      <module name="spring-boot-admin" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+      <module name="user-center" options="-parameters" />
+    </option>
+  </component>
+</project>
