@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5328ac59-aedc-46c6-a858-249689487ae6" name="Default Changelist" comment="" />
+    <list default="true" id="5328ac59-aedc-46c6-a858-249689487ae6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/content-center/src/main/java/com/content/center/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-center/src/main/java/com/content/center/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-center/src/main/java/com/user/center/remote/ContentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-center/src/main/java/com/user/center/remote/ContentClient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,10 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -48,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/PersonDemon/bc-order-center" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +79,7 @@
       <recent name="F:\workSpace\test-demo\cloud-parent\gateway-demo\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ContentApplication">
     <configuration name="MpGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.user.center.config.MpGenerate" />
       <module name="user-center" />
@@ -119,7 +126,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="content-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.content.center.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.content.center.ContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="gateway-demo" />
       <extension name="coverage">
         <pattern>
@@ -128,28 +148,25 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.demo.GatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="user-center" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.user.center.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.center.UserCenterApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.MpGenerate" />
+      <item itemvalue="Application.TestMain" />
+      <item itemvalue="Spring Boot.CloudParentApplication" />
+      <item itemvalue="Spring Boot.UserCenterApplication" />
+      <item itemvalue="Spring Boot.AdminSpringBoot" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ContentApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ContentApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.TestMain" />
-        <item itemvalue="Spring Boot.UserCenterApplication" />
         <item itemvalue="Application.MpGenerate" />
         <item itemvalue="Spring Boot.AdminSpringBoot" />
       </list>
@@ -188,17 +205,41 @@
       <workItem from="1655500862099" duration="24193000" />
       <workItem from="1655592986379" duration="9405000" />
       <workItem from="1655605212993" duration="18225000" />
+      <workItem from="1655651561279" duration="67000" />
+      <workItem from="1655651767438" duration="418000" />
+      <workItem from="1655652220708" duration="175000" />
+      <workItem from="1655719633671" duration="749000" />
+      <workItem from="1655809166101" duration="3291000" />
+      <workItem from="1655826477315" duration="64000" />
+      <workItem from="1655870516745" duration="3510000" />
+      <workItem from="1658844130639" duration="3402000" />
     </task>
+    <task id="LOCAL-00001" summary="FeginClient调用演示">
+      <created>1658847356875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658847356875</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FeginClient调用演示" />
+    <option name="LAST_COMMIT_MESSAGE" value="FeginClient调用演示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Notifications" timestamp="1655192762070">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="0" key="#Notifications/0.0.1280.672@0.0.1280.672" timestamp="1655192762070" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655814376144">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1655814376144" />
     <state x="446" y="46" width="615" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1655631734525">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -219,6 +260,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="251" y="63" width="963" height="571" key="#xdebugger.evaluate/0.0.1280.672@0.0.1280.672" timestamp="1655632104466" />
+    <state x="210" y="0" key="CommitChangelistDialog2" timestamp="1658847571454">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="210" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1658847571454" />
     <state width="858" height="438" key="DebuggerActiveHint" timestamp="1655629626449">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -227,42 +272,42 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="93" y="93" width="1095" height="487" key="DiffContextDialog/0.0.1280.672@0.0.1280.672" timestamp="1655191531387" />
-    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1655602022812">
+    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1655882007727">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1655602022812" />
-    <state width="1156" height="245" key="GridCell.Tab.0.bottom" timestamp="1655649006533">
+    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1655882007727" />
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.0.center" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.0.center" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.0.left" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.0.left" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.0.right" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.0.right" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.1.bottom" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.1.bottom" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.1.center" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.1.center" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.1.left" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.1.left" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
-    <state width="1156" height="245" key="GridCell.Tab.1.right" timestamp="1655649006533">
+    <state width="1237" height="211" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
+    <state width="1237" height="211" key="GridCell.Tab.1.right" timestamp="1658847251283">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1156" height="245" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1655649006533" />
+    <state width="1237" height="211" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1658847251283" />
     <state width="1156" height="380" key="GridCell.Tab.2.bottom" timestamp="1655649006491">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -279,10 +324,18 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state width="1156" height="380" key="GridCell.Tab.2.right/0.0.1280.672@0.0.1280.672" timestamp="1655649006491" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1655605467711">
+    <state x="362" y="50" key="RollbackChangesDialog" timestamp="1655879776989">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1655605467711" />
+    <state x="362" y="50" key="RollbackChangesDialog/0.0.1280.672@0.0.1280.672" timestamp="1655879776989" />
+    <state x="59" y="0" key="SettingsEditor" timestamp="1655652356684">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="59" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1655652356684" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1658847590123">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1658847590123" />
     <state width="647" height="343" key="XDebugger.FullValuePopup" timestamp="1655620764521">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -299,10 +352,14 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="93" y="93" width="1095" height="487" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.672@0.0.1280.672" timestamp="1655191531387" />
-    <state x="325" y="161" key="com.intellij.ide.util.TipDialog" timestamp="1655605216249">
+    <state x="325" y="161" key="com.intellij.ide.util.TipDialog" timestamp="1655870523041">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="325" y="161" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1655605216249" />
+    <state x="325" y="161" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1655870523041" />
+    <state x="439" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1658847462622">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="439" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.672@0.0.1280.672" timestamp="1658847462622" />
     <state x="195" y="73" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1655625653693">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -394,11 +451,6 @@
           <url>file://$PROJECT_DIR$/gateway-demo/src/main/java/com/gateway/demo/config/DynamicRouteServiceImplByNacos.java</url>
           <line>65</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway-demo/src/main/java/com/gateway/demo/config/DynamicRouteServiceImpl.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
