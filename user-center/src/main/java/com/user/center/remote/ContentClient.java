@@ -17,6 +17,6 @@ public interface ContentClient {
     String getNameAndAge(@PathVariable("name") String name,
                          @PathVariable("age") Integer age);
 
-    @RequestMapping(value = "/test/getNameAndAge",method = RequestMethod.GET)
+    @RequestMapping(value = "/test/getNameAndAge2",method = RequestMethod.GET)
     String getNameAndAgeObj(@SpringQueryMap Map<String,Object> param);
 }

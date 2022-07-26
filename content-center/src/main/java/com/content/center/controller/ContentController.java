@@ -19,4 +19,11 @@ public class ContentController {
         log.info("content-center请求参数：{}，{}",name,age);
         return "姓名："+name+",年龄："+age ;
     }
+    @GetMapping("/test/getNameAndAge2")
+    public String getInfo2(@RequestParam("name") String name, @RequestParam("age") Integer age){
+        log.info("content-center请求参数：{}，{}",name,age);
+        return "姓名："+name+",年龄："+age ;
+    }
+
+
 }
